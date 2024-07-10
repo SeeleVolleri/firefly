@@ -1,0 +1,12 @@
+# Rockchip RK3566 1GB-8GB GBE eMMC SATA USB WiFi
+BOARD_NAME="tspi"
+BOARDFAMILY="rk35xx"
+BOARD_MAINTAINER=""
+KERNEL_TARGET="legacy,vendor"
+BOOTCONFIG="rock-3c-rk3566_defconfig"
+FULL_DESKTOP="yes"
+BOOT_LOGO="desktop"
+BOOT_FDT_FILE="rockchip/rk3566-taishanpi-v10.dtb"
+BOOT_SCENARIO="spl-blobs"
+BOOT_SOC="rk3566"
+IMAGE_PARTITION_TABLE="gpt"
