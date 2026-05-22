@@ -10,8 +10,8 @@
 	compatible = "vanxoak,hd-rk3506g-evb", "rockchip,rk3506";
 
 	aliases {
-		ethernet0 = <&gmac0>;
-		ethernet1 = <&gmac1>;
+		ethernet0 = &gmac0;
+		ethernet1 = &gmac1;
 		mmc0 = &sdmmc;
 		serial0 = &uart0;
 	};
